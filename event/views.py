@@ -26,6 +26,7 @@ from .utils import generate_ticket_pdf, send_ticket_email
 import os
 from django.db import transaction
 from django.db.models import F
+import decimal
 from decimal import Decimal
 from rest_framework.decorators import permission_classes
 from rest_framework.permissions import IsAuthenticated
